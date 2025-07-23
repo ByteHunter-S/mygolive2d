@@ -1,11 +1,11 @@
 import * as PIXI from "pixi.js";
 import { getModelId, getModelTexturesId, resetModelState, getConfig, setConfig, getMessageArray } from "./config.js";
-import Model from "./model.js";
-import showMessage from "./message.js";
-import randomSelection from "./utils.js";
-import tools from "./tools.js";
-import modelList from "./modelList.js";
-import tips from "./tips.js";
+import Model from "https://mygolive2d.netlify.app/model.js";
+import showMessage from "https://mygolive2d.netlify.app/message.js";
+import randomSelection from "https://mygolive2d.netlify.app/utils.js";
+import tools from "https://mygolive2d.netlify.app/tools.js";
+import modelList from "https://mygolive2d.netlify.app/modelList.js";
+import tips from "https://mygolive2d.netlify.app/tips.js";
 
 window.PIXI = PIXI;
 
